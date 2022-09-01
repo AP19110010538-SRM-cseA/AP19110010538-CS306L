@@ -1,0 +1,13 @@
+Implementation of symbol table using linear linked list:
+
+-> In order to search for the position to insert data in linked list traversing is required. The time complexity for inserting or deleting an element from the list is O(n). The best case time complexity of linear search is O(1) and on average case time the time complexity is O(n).
+
+-> The main advantage of linked list is nodes can be easily be inserted or deleted.The main disadvantage is that the nodes must be accessed sequentially which consumes more time. 
+
+-> Insert() operation is more frequently used in the analysis phase when the tokens are identified and names are stored in the table and The operation is used to insert the information in the symbol table like the unique name occurring in the source code.
+
+-> Display() will display the nodes present in the list. 
+
+-> Search() operation helps us to find particular stored data from the linked list.
+
+-> Exit() operation will terminate the whole process.
