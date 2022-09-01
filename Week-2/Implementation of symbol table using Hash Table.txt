@@ -1,0 +1,17 @@
+                                     Implementation of symbol table using Hash Table:
+
+1) In hashing two tables are maintained a hash table and a symbol table and are most used method to implement symbol tables. 
+
+2) A hash table is an array with an index range 0 to table size -1. These entries are pointers pointing to names/labels of the symbol table.
+
+3) Insertion and deleting are very fast in hash table. The time complexity is 0(1).
+
+4) Insert() operation is used to store values in hash table. When a new value is stored in hash table, it is assigned an index number. The index is calculated using hash table.
+
+5) Search() operation helps us to find particular stored data from the hash table. To search for a name/label we use a hash function that will result in an integer between 0 to table size-1. 
+
+6) Display() operation is used display the stored data of hash table using the index values assigned to the stored data.
+
+7) Exit() operation will terminate the whole process.
+
+8) The advantage is quick to search is possible and the disadvantage is thathashing is complicated to implement.
